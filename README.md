@@ -4,7 +4,7 @@ Example PHP-FPM 7.0 & Nginx 1.10 setup for Docker, build on [Alpine Linux](http:
 The image is only +/- 60MB large.
 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/kasperfranz/docker-php-nginx.svg)](https://hub.docker.com/r/kasperfranz/docker-php-nginx/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/kasperfranz/docker-php-nginx.svg)](https://hub.docker.com/r/kasperfranz/docker-php-nginx/) [![](https://images.microbadger.com/badges/image/kasperfranz/docker-php-nginx.svg)](https://microbadger.com/images/kasperfranz/docker-php-nginx "Get your own image badge on microbadger.com")
 
 Usage
 -----
@@ -19,3 +19,4 @@ Resources & inspiration
 https://ejosh.co/de/2015/09/how-to-link-docker-containers-together
 
 https://github.com/johanan/Ansible-and-Docker
+ 
