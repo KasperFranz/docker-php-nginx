@@ -2,7 +2,8 @@ FROM alpine:latest
 MAINTAINER Tim de Pater <code@trafex.nl>
 
 # Install packages
-RUN apk --update add php7 php7-json php7-session php7-openssl php7-mysqli php7-fpm nginx supervisor --repository http://nl.alpinelinux.org/alpine/edge/testing/
+RUN apk --update add ca-certificates php7 php7-json php7-session php7-openssl php7-mysqli php7-fpm nginx supervisor --repository http://nl.alpinelinux.org/alpine/edge/testing/
+RUN update-ca-certificates
 
 # Configure nginx
 COPY config/nginx.conf /etc/nginx/nginx.conf
