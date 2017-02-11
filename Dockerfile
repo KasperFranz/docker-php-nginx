@@ -1,8 +1,8 @@
 FROM alpine:latest
-MAINTAINER Tim de Pater <code@trafex.nl>
+MAINTAINER Kasper Franz <kasper@franz.guru>
 
 # Install packages
-RUN apk --update add ca-certificates php7 php7-json php7-zlib php7-mbstring php7-iconv php7-phar php7-session php7-openssl php7-mysqli php7-fpm nginx supervisor --repository http://nl.alpinelinux.org/alpine/edge/testing/
+RUN apk --no-cache add ca-certificates php7 php7-json php7-zlib php7-mbstring php7-iconv php7-phar php7-session php7-openssl php7-mysqli php7-fpm nginx supervisor --repository http://nl.alpinelinux.org/alpine/edge/testing/
 RUN update-ca-certificates
 
 # Configure nginx
